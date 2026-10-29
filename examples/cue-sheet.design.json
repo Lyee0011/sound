@@ -1,0 +1,49 @@
+{
+  "schema": "sound-cues/1",
+  "description": "Design template. Replace the local source path, verify rights, and compute its SHA-256 before rendering.",
+  "fps": "30/1",
+  "duration_frames": 300,
+  "voice": null,
+  "max_true_peak_dbfs": -2,
+  "assets": {
+    "contact": {
+      "path": "../local-assets/contact.wav",
+      "sha256": null,
+      "rights_status": "unreviewed",
+      "source_url": null,
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "file_kind": null
+    }
+  },
+  "ducking": {
+    "threshold_dbfs": -36,
+    "lookahead_ms": 15,
+    "attack_ms": 15,
+    "hold_ms": 80,
+    "release_ms": 160
+  },
+  "cues": [
+    {
+      "id": "card-contact",
+      "asset": "contact",
+      "role": "foley",
+      "target_frame": 90,
+      "target_offset_samples": 0,
+      "anchor": "peak",
+      "trim_seconds": [0.0, 0.4],
+      "duration_seconds": 0.3,
+      "rms_dbfs": -28,
+      "peak_dbfs": -18,
+      "duck_db": 4,
+      "highpass_hz": 100,
+      "lowpass_hz": 8000,
+      "speech_notch_db": -3,
+      "fade_in_ms": 3,
+      "fade_out_ms": 35,
+      "width": 0.5,
+      "pan": -0.1
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # sound
 
+> 本 fork 的实验分支：[`codex/advanced-audio-design`](https://github.com/Lyee0011/sound/tree/codex/advanced-audio-design)。新增了本地音效分层渲染原型和[进阶功能设计](docs/advanced-audio-design.md)，另见[达芬奇接入方案](docs/davinci-resolve-integration.md)。这些是独立实现；没有获得或验证作者付费版的内容。下文保留上游说明，实际下载脚本目前仅支持 Freesound。
+
 A Claude Code skill that gives AI-made videos studio-grade sound effects.
 
 Agents can't hear. Left alone, they reach for a synthesizer and judge a sound by its math. This skill sends them to real sound libraries instead, and teaches them to choose the way a person would: by what the people who *did* hear the clips left behind (likes, downloads, ratings, the uploader's description).
